@@ -1,0 +1,21 @@
+div{
+    float: left;
+    text-align: center;
+    margin: 1vw;
+    border: 1px solid white;
+    height: 56vh;
+}
+
+aside{
+    border: 1px solid white;
+    height: 56vh;
+    margin: 1vw;
+}
+
+aside h2{
+    margin: 1em;
+}
+
+aside p{
+    margin: 2em;
+}

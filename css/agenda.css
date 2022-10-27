@@ -1,0 +1,18 @@
+table {
+    font-size: xx-large;
+    border: 1px solid white;
+    margin: 1em 0em 1em 25vh;
+    text-align: center;
+}
+
+caption{
+    margin-bottom: 1em;
+}
+td {
+    border: 1px solid white;
+    padding: 1em;
+}
+
+th {
+    border: 1px solid white;
+}

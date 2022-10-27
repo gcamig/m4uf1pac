@@ -1,0 +1,15 @@
+section{
+    border: 1px solid white;
+    margin: 1em;
+    height: 18vh;
+}
+
+h2{
+    margin: 1em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main p{
+    margin: 2em;
+}
