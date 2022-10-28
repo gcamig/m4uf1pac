@@ -6,14 +6,19 @@ div{
     height: 56vh;
 }
 
+div img{
+    height: 85%;
+    margin: 1em;
+}
+
 aside{
     border: 1px solid white;
     height: 56vh;
     margin: 1vw;
 }
 
-aside h2{
-    margin: 1em;
+h2{
+    margin: 1em 1em 0em 1em;
 }
 
 aside p{
