@@ -1,4 +1,4 @@
-div{
+#imgAutor{
     float: left;
     text-align: center;
     margin: 1vw;
@@ -6,7 +6,7 @@ div{
     height: 56vh;
 }
 
-div img{
+#imgAutor img{
     height: 85%;
     margin: 1em;
 }
@@ -15,12 +15,31 @@ aside{
     border: 1px solid white;
     height: 56vh;
     margin: 1vw;
+    text-align: center;
+}
+
+.noticias{
+    float: left;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid white;
+    height: 80%;
+    margin: 0em 6em 0em 6em;  
+}
+
+.noticias img{
+    height: 90%;
 }
 
 h2{
-    margin: 1em 1em 0em 1em;
+    margin: 1em;
 }
 
 aside p{
-    margin: 2em;
+    margin-bottom: 1em;
+    font-size: x-large;
+}
+aside a{
+    text-decoration: underline;
 }
