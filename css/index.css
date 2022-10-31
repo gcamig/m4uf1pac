@@ -36,11 +36,11 @@ aside :nth-child(3) {
     padding: 1em;
     border: 1px solid white;
     width: 35%;
-    height: 85%;
+    height: 80%;
 }
 
 .noticias img {
-    height: 40vh;
+    height: 35vh;
     width: auto;
 }
 
