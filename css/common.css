@@ -1,60 +1,67 @@
-*{
+* {
     margin: 0px;
-    color: white;
-    background-color: #333;
+    background-color: #f5f5f7;
     font-family: monospace;
 }
 
 header {
-    position: relative;
-    border: 1px solid white;
-    height: 15vh;
+    height: 10vh;
     background-image: url("../img/logo.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 1em;
+    background-color: #313132;
 }
 
-nav{
-    border: 1px solid white;
+nav {
+    background-color: rgb(37, 37, 37);
+    border-top: 1px solid white;
     text-align: center;
-    padding: 1em;
     font-size: large;
-    margin-bottom: 1em;
+    padding: 1em;
 }
 
-nav ul li
-{
+ul {
+    background-color: transparent;
+}
+
+nav ul li {
     list-style: none;
     display: inline;
     margin: 3em;
 }
 
-a{
+nav a {
     text-decoration: none;
-    border-radius: 20%;
-    padding: 5px;
+    color: rgb(199, 199, 199);
+    background-color: rgb(37, 37, 37);
 }
 
-a:hover{
-    background-color: white;
-    color: black;
+nav a:hover {
+    color: white;
 }
 
-main{
-    border: 1px solid white;
-    margin-bottom: 1em;
-}
-
-footer{
-    text-align: center;
-    font-size: large;
-    border: 1px solid white;
+main {
+    background-color: #f5f5f7;
     padding: 1em;
 }
 
-footer p{
-    margin-bottom: 15px;
+a {
+    background-color: transparent;
+    color: black;
 }
 
+a:hover {
+    color: blue;
+}
 
+footer {
+    border-top: 1px solid rgb(37, 37, 37);
+    text-align: center;
+    font-size: large;
+    padding: 1em;
+    margin: 0em 1em 0em 1em;
+}
+
+footer p {
+    margin-bottom: 1em;
+}

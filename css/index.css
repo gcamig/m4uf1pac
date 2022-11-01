@@ -1,53 +1,51 @@
 #imgAutor {
     float: left;
     text-align: center;
-    margin: 4vw 1vw 1vw 2vw;
-    border: 1px solid white;
-    height: 56vh;
-    width: 20%;
+    height: 70vh;
 }
 
 #imgAutor img {
-    height: 85%;
+    height: 95%;
     margin: 1em;
 }
 
-h2 {
-    margin-top: 1em;
+h3 {
+    background-color: white;
 }
 
 aside {
     width: 80%;
-    border: 1px solid white;
-    height: 75vh;
-    margin: 1em 1em 1em 25%;
+    height: 70vh;
+    margin-left: 25%;
+    padding: 0em 1em 1em 1em;
     text-align: center;
+}
+
+aside h2 {
+    margin-bottom: 1em;
 }
 
 aside :nth-child(3) {
     width: 50%;
-    margin: 1em;
 }
 
 .noticias {
+    background-color: white;
     float: left;
     text-align: center;
-    margin: 1em 0em 1em 3em;
+    margin-left: 1em;
     padding: 1em;
-    border: 1px solid white;
     width: 35%;
-    height: 80%;
+    height: 90%;
 }
 
 .noticias img {
     height: 35vh;
     width: auto;
+    margin-top: 10%;
 }
 
 aside p {
+    background-color: white;
     margin: 1em;
-}
-
-aside a {
-    text-decoration: underline;
 }
