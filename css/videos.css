@@ -4,6 +4,8 @@ main{
 
 iframe{
     margin: 1em;
+    padding: 1em;
     width: 40vw;
     height: 50vh;
+    background-color: white;
 }

@@ -1,7 +1,15 @@
 section{
-    border: 1px solid white;
     text-align: center;
-}
-section h2{
+    background-color: white;
+    padding: 1em;
     margin: 1em;
+}
+
+section img{
+    height: 445px;
+    width: 289px;
+}
+h2{
+    margin-bottom: 1em;
+    background-color: transparent;
 }
