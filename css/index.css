@@ -42,7 +42,7 @@ aside :nth-child(3) {
 .noticias img {
     height: 35vh;
     width: auto;
-    margin-top: 10%;
+    margin-top: 1em;
 }
 
 aside p {
