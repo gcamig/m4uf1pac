@@ -1,7 +1,7 @@
 section{
     background-color: white;
     margin: 1em;
-    height: 18vh;
+    height: fit-content;
     padding: 1em;
 }
 
@@ -14,4 +14,36 @@ main p{
     margin: 1em;
     background-color: transparent;
     font-size: large;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main{
+        flex-wrap: wrap;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    main{
+        flex-wrap: wrap;
+    }
+}
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    
+}
+  
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    main{
+        flex-wrap: nowrap;
+    }
+}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
 }
